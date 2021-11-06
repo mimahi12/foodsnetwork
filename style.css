@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@400;600;700;800&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  width: 1500px;
+  margin: auto !important;
+}
+section {
+  width: 100%;
+  padding: 100px 0;
+}
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-text {
+  flex-basis: 45%;
+  max-width: 600px;
+}
+.htext {
+  font-family: Montserrat;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.htext .cc {
+  color: rgb(248, 126, 44);
+}
+.home-text p {
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.home-text .btn {
+  text-align: center;
+  line-height: 50px;
+  border-radius: 10px;
+  display: block;
+  height: 50px;
+  width: 155px;
+  background: linear-gradient(#fba24f, #ff1e1e);
+  font-size: 18px;
+  font-family: Montserrat;
+  color: #ffffff;
+}
+.home-img {
+  flex-basis: 40%;
+}
+.home-img img {
+  height: 100%;
+  width: 100%;
+}
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(https://i.ibb.co/gPWHysj/7.png);
+}
+.about-img,
+.about-text {
+  flex-basis: 45%;
+}
+.about-text {
+  max-width: 440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about-text .btn {
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  background: linear-gradient(#fba24f, #ff1e1e);
+}
+.about-text .title {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: #707070;
+  margin-bottom: 10px;
+}
+.about-text p {
+  font-size: 18px;
+  font-family: Manrope;
+}
+.about-img img {
+  width: 100%;
+}
+#recipt {
+  padding: 100px 0;
+}
+.recipt-text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.recipt-text .title {
+  font-size: 36px;
+  padding: 20px 0;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+.recipt-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: #ffffffb7;
+  border-radius: 10px;
+}
+.recipt-card .card {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.recipt-card .card h3,
+p {
+  margin: 15px 0;
+}
+h3 {
+  font-size: 28px;
+  font-family: Montserrat;
+}
+.recipt-card .card p {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+.recipt-card .card img {
+  width: 100%;
+}
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  margin: 100px;
+  padding: 120px;
+  font-size: 120px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+}
+
+
+/* your-recipes */
+
+.rcipies-item {
+  display: flex;
+  margin: 30px;
+}
+.your-recipes{
+  text-align: center;
+}
+.your-recipes p{
+  width: 760px;
+  margin: auto !important;
+}
+.food-item img{
+  /* height: 300; */
+  width: 95%;
+  border-radius: 0 !important;
+  padding-top: 10px;
+}
+.food-item-3 img{
+  width: 70%;
+}
+.food-item {
+  box-shadow: 0px 1px 7px #88888f70;
+  margin-right: 30px;
+  text-align: center !important;
+  border-radius: 10px;
+
+}
+.food-item p{
+  
+}
+.food-item h2{
+  margin-top: 20px;
+  }
+}
+
+/* cunter */
+section{
+  padding: 30px 0;
+}
+.cunter{
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 1px 7px #88888f70;
+  margin: 30px;
+  justify-content: space-around;
+  border-radius: 10px;
+  
+}
+.cunter-item{
+  text-align: center;
+  margin: 30px;
+}
+.foot {
+  height: 256px;
+  width: 100%;
+  text-align: center;
+  background: #0b0d17;
+}
+.foot p {
+  font-size: 16px;
+  color: #ffffff;
+}
+.foot-title {
+  padding-top: 50px;
+  color: #5b5b5b;
+  font-size: 30px;
+  font-family: Manrope;
+}
+.foot-title span {
+  background: linear-gradient(#fba24f, #ff1e1e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
